@@ -1,25 +1,70 @@
-# Golf Game
+# Getting Started with Create React App
 
-### You are creating a golf game. The game starts with the click of the start button. You want to take the ball to the hole and you are timed with a timer. The ball moves with arrow keys on the keyboard.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Acceptance Criteria
-- Render a start button. The timer starts on clicking the start button. Timer counts in seconds.
-- Render a ball and a hole(destiny).
-- Before clicking the start button, the ball should not move with arrow keys.
-- After clicking the start button, ball should move by using up, down, left and right arrow keys. (each key should shift the ball by 5px in respective direction).
-- When the ball goes into the hole, timer should stop.
-- Make sure you give the components the right class names as mentioned in the details below and that you use the right state variable names
-- Carefully complete timer start and stop actions
+## Available Scripts
 
+In the project directory, you can run:
 
-## Details:
-- The goal is to move the ball to the hole. To move the ball update top and left parameters in css with absolute positioning.
-- Track the seconds using state variable time.
-- Track the coordinate of the ball using state variable x and y
-- Coordinates of the ball at starting should be 0, 0
-- Coordinates of the hole should be (250px, 250px)
-- class name of the ball - > ball
-- class name of the hole -> hole
-- class name of the display timer should be -> heading- timer
-- class name of the start button -> start
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
